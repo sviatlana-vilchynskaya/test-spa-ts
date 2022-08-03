@@ -17,8 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "webpack serve --port 3000",
+    "build": "set NODE_ENV=production && webpack",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,7 +42,14 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.7"
+    "tailwindcss": "^3.1.7",
+    "ts-loader": "^9.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
   }
 }
