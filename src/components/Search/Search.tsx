@@ -1,16 +1,13 @@
 import React from "react";
+import "./styles/index.css";
 
 function Search() {
   return (
-    <div className="container mx-auto">
-      <div className="form-control">
-        <div className="input-group flex justify-end">
-          <input
-            type="text"
-            placeholder="Search…"
-            className="input input-bordered"
-          />
-          <button className="btn btn-square bg-slate-600 border-none">
+    <div className="container-center">
+      <div className="form-container">
+        <div className="search-group">
+          <input type="text" placeholder="Search…" className="search-input" />
+          <button className="search-btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

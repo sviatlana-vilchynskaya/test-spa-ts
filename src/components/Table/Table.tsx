@@ -1,15 +1,16 @@
 import React from "react";
+import "./styles/index.css";
 
 function Table() {
   return (
-    <div className="container px-20 mx-auto">
-      <div className="overflow-x-auto w-full">
-        <table className="table w-full">
+    <div className="table-container">
+      <div className="table-contacts-wrap">
+        <table className="table-contacts">
           <thead>
             <tr>
               <th>
                 <label>
-                  <input type="checkbox" className="checkbox" />
+                  <input type="checkbox" className="table-contact-checkbox" />
                 </label>
               </th>
               <th>Name</th>
@@ -22,136 +23,132 @@ function Table() {
             <tr>
               <th>
                 <label>
-                  <input type="checkbox" className="checkbox" />
+                  <input type="checkbox" className="table-contact-checkbox" />
                 </label>
               </th>
               <td>
-                <div className="flex items-center space-x-3">
-                  <div className="avatar">
-                    <div className="mask mask-squircle w-12 h-12">
+                <div className="contact-wrap">
+                  <div className="contact-avatar">
+                    <div className="contact-mask">
                       <img
-                        src="/tailwind-css-component-profile-2@56w.png"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtAuo52iEqeBhllpTn02t-mFFA9GUPY4Cbag&usqp=CAU"
                         alt="Avatar Tailwind CSS Component"
                       />
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">Hart Hagerty</div>
-                    <div className="text-sm opacity-50">United States</div>
+                    <div className="contact-name">Hart Hagerty</div>
+                    <div className="contact-country">United States</div>
                   </div>
                 </div>
               </td>
               <td>
                 Zemlak, Daniel and Leannon
-                <span className="badge badge-ghost badge-sm">
+                <span className="contact-badge">
                   Desktop Support Technician
                 </span>
               </td>
               <td>Purple</td>
               <th>
-                <button className="btn btn-ghost btn-xs">details</button>
+                <button className="details-btn">details</button>
               </th>
             </tr>
 
             <tr>
               <th>
                 <label>
-                  <input type="checkbox" className="checkbox" />
+                  <input type="checkbox" className="table-contact-checkbox" />
                 </label>
               </th>
               <td>
-                <div className="flex items-center space-x-3">
-                  <div className="avatar">
-                    <div className="mask mask-squircle w-12 h-12">
+                <div className="contact-wrap">
+                  <div className="contact-avatar">
+                    <div className="contact-mask">
                       <img
-                        src="/tailwind-css-component-profile-3@56w.png"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGmaZgLLANRqjbr5CbgIQ0zV54gB7xMkraHg&usqp=CAU"
                         alt="Avatar Tailwind CSS Component"
                       />
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">Brice Swyre</div>
-                    <div className="text-sm opacity-50">China</div>
+                    <div className="contact-name">Brice Swyre</div>
+                    <div className="contact-country">China</div>
                   </div>
                 </div>
               </td>
               <td>
                 Carroll Group
-                <span className="badge badge-ghost badge-sm">
-                  Tax Accountant
-                </span>
+                <span className="contact-badge">Tax Accountant</span>
               </td>
               <td>Red</td>
               <th>
-                <button className="btn btn-ghost btn-xs">details</button>
+                <button className="details-btn">details</button>
               </th>
             </tr>
 
             <tr>
               <th>
                 <label>
-                  <input type="checkbox" className="checkbox" />
+                  <input type="checkbox" className="table-contact-checkbox" />
                 </label>
               </th>
               <td>
-                <div className="flex items-center space-x-3">
-                  <div className="avatar">
-                    <div className="mask mask-squircle w-12 h-12">
+                <div className="contact-wrap">
+                  <div className="contact-avatar">
+                    <div className="contact-mask">
                       <img
-                        src="/tailwind-css-component-profile-4@56w.png"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA-4vjXBWynvCKno-EGalFVJ-ocuxJEn2whw&usqp=CAU"
                         alt="Avatar Tailwind CSS Component"
                       />
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">Marjy Ferencz</div>
-                    <div className="text-sm opacity-50">Russia</div>
+                    <div className="contact-name">Marjy Ferencz</div>
+                    <div className="contact-country">Russia</div>
                   </div>
                 </div>
               </td>
               <td>
                 Rowe-Schoen
-                <span className="badge badge-ghost badge-sm">
-                  Office Assistant I
-                </span>
+                <span className="contact-badge">Office Assistant I</span>
               </td>
               <td>Crimson</td>
               <th>
-                <button className="btn btn-ghost btn-xs">details</button>
+                <button className="details-btn">details</button>
               </th>
             </tr>
 
             <tr>
               <th>
                 <label>
-                  <input type="checkbox" className="checkbox" />
+                  <input type="checkbox" className="table-contact-checkbox" />
                 </label>
               </th>
               <td>
-                <div className="flex items-center space-x-3">
-                  <div className="avatar">
-                    <div className="mask mask-squircle w-12 h-12">
+                <div className="contact-wrap">
+                  <div className="contact-avatar">
+                    <div className="contact-mask">
                       <img
-                        src="/tailwind-css-component-profile-5@56w.png"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR2gTHojt-XIhehmJHWF3vFYgcaV45OWYt1Q&usqp=CAU"
                         alt="Avatar Tailwind CSS Component"
                       />
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">Yancy Tear</div>
-                    <div className="text-sm opacity-50">Brazil</div>
+                    <div className="contact-name">Yancy Tear</div>
+                    <div className="contact-country">Brazil</div>
                   </div>
                 </div>
               </td>
               <td>
                 Wyman-Ledner
-                <span className="badge badge-ghost badge-sm">
+                <span className="contact-badge">
                   Community Outreach Specialist
                 </span>
               </td>
               <td>Indigo</td>
               <th>
-                <button className="btn btn-ghost btn-xs">details</button>
+                <button className="details-btn">details</button>
               </th>
             </tr>
           </tbody>

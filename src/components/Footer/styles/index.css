@@ -1,0 +1,24 @@
+.footer-wrap {
+  @apply footer;
+  @apply items-center;
+  @apply p-4;
+  @apply bg-neutral;
+  @apply text-neutral-content;
+  @apply bg-slate-500;
+}
+
+.footer-item-left {
+  @apply items-center;
+  @apply grid-flow-col;
+}
+
+.footer-socials {
+  @apply grid-flow-col;
+  @apply gap-4;
+  @apply md:place-self-center;
+  @apply md:justify-self-end;
+}
+
+.item-svg-color {
+  @apply fill-current;
+}

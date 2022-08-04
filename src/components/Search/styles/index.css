@@ -1,0 +1,21 @@
+.form-container {
+  @apply form-control;
+}
+
+.search-group {
+  @apply input-group;
+  @apply flex;
+  @apply justify-end;
+}
+
+.search-input {
+  @apply input;
+  @apply input-bordered;
+}
+
+.search-btn {
+  @apply btn;
+  @apply btn-square;
+  @apply bg-slate-600;
+  @apply border-none;
+}

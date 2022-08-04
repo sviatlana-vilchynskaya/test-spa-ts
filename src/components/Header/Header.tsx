@@ -1,16 +1,17 @@
 import React from "react";
-import Search from "./Search";
+import Search from "../Search/Search";
+import "./styles/index.css";
 
 function Header() {
   return (
-    <div className="navbar bg-slate-500 shadow-lg shadow-slate-600/50 text-cyan-50 mb-6">
-      <div className="container mx-auto">
-        <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">Logo</a>
+    <div className="nav-wrap">
+      <div className="container-center">
+        <div className="logo-wrap">
+          <a className="logo">Logo</a>
         </div>
         <Search />
-        <div className="flex-none ">
-          <ul className="menu menu-horizontal p-0">
+        <div className="menu-wrap">
+          <ul className="menu-list">
             <li>
               <a>Item 1</a>
             </li>

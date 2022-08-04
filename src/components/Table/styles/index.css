@@ -1,0 +1,58 @@
+.table-container {
+  @apply container;
+  @apply px-20;
+  @apply mx-auto;
+  @apply mb-10;
+}
+
+.table-contacts-wrap {
+  @apply overflow-x-auto;
+  @apply w-full;
+}
+
+.table-contacts {
+  @apply table;
+  @apply w-full;
+}
+
+.table-contact-checkbox {
+  @apply checkbox;
+}
+
+.contact-wrap {
+  @apply flex;
+  @apply items-center;
+  @apply space-x-3;
+}
+
+.contact-avatar {
+  @apply avatar;
+}
+
+.contact-mask {
+  @apply mask;
+  @apply mask-squircle;
+  @apply w-12;
+  @apply h-12;
+}
+
+.details-btn {
+  @apply btn;
+  @apply btn-ghost;
+  @apply btn-xs;
+}
+
+.contact-name {
+  @apply font-bold;
+}
+
+.contact-country {
+  @apply text-sm;
+  @apply opacity-50;
+}
+
+.contact-badge {
+  @apply badge;
+  @apply badge-ghost;
+  @apply badge-sm;
+}

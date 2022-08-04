@@ -1,0 +1,28 @@
+.nav-wrap {
+  @apply navbar;
+  @apply bg-slate-500;
+  @apply shadow-lg;
+  @apply shadow-slate-600/50;
+  @apply text-cyan-50 mb-6;
+}
+
+.logo {
+  @apply btn;
+  @apply btn-ghost;
+  @apply normal-case;
+  @apply text-xl;
+}
+
+.menu-list {
+  @apply menu;
+  @apply menu-horizontal;
+  @apply p-0;
+}
+
+.logo-wrap {
+  @apply flex-1;
+}
+
+.menu-wrap {
+  @apply flex-none;
+}

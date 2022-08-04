@@ -1,0 +1,38 @@
+.slider-container {
+  @apply container;
+  @apply mx-auto;
+  @apply px-20;
+  @apply mb-10;
+}
+
+.slider-wrap {
+  @apply carousel;
+  @apply w-full;
+  @apply rounded-xl;
+}
+
+.slider-item {
+  @apply carousel-item;
+  @apply relative;
+  @apply w-full;
+}
+
+.slider-img {
+  @apply w-full;
+}
+
+.btn-control-wrap {
+  @apply absolute;
+  @apply flex;
+  @apply justify-between;
+  @apply transform;
+  @apply -translate-y-1/2;
+  @apply left-5;
+  @apply right-5;
+  @apply top-1/2;
+}
+
+.btn-control {
+  @apply btn;
+  @apply btn-circle;
+}
